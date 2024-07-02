@@ -68,7 +68,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -104,7 +104,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -141,7 +141,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -178,7 +178,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -214,7 +214,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -226,7 +226,7 @@ let listProducts = [
         information: {
             manufacturer: 'Xell',
             application: 'mAb',
-            target: '',
+            target: ['CHO', 'CHODG44', 'CHOK1', 'CHOS'],
             productimage: 'image_smart/TCX7D_Medium.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/76.CHO-Media-and-Feed-Portfolio-Datasheet-en-B.pdf'
@@ -248,7 +248,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -283,7 +283,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -294,7 +294,7 @@ let listProducts = [
         dataname: 'd_08',
         information: {
             manufacturer: 'Xell',
-            application: ['Vaccine', 'CGT', 'mAb', 'Proteins'],
+            application: ['Vaccine', 'CGT', 'mAb'],
             target: ['HEK293', 'HEK293T', 'HEK293F3F6'],
             productimage: 'image_smart/HEK_GM.jpg',
             productbrand: 'SARTORIUS',
@@ -320,7 +320,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -331,7 +331,7 @@ let listProducts = [
         dataname: 'd_09',
         information: {
             manufacturer: 'Xell',
-            application: ['Vaccine', 'CGT', 'mAb', 'Proteins'],
+            application: ['Vaccine', 'CGT', 'mAb'],
             target: ['HEK293', 'HEK293T', 'HEK293F3F6'],
             productimage: 'image_smart/HEK_TF.jpg',
             productbrand: 'SARTORIUS',
@@ -357,7 +357,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -368,7 +368,7 @@ let listProducts = [
         dataname: 'd_10',
         information: {
             manufacturer: 'Xell',
-            application: ['Vaccine', 'CGT', 'mAb', 'Proteins'],
+            application: ['Vaccine', 'CGT', 'mAb'],
             target: ['HEK293', 'HEK293T', 'HEK293F3F6'],
             productimage: 'image_smart/HEK_TF.jpg',
             productbrand: 'SARTORIUS',
@@ -393,7 +393,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -404,7 +404,7 @@ let listProducts = [
         dataname: 'd_11',
         information: {
             manufacturer: 'Xell',
-            application: ['Vaccine', 'CGT', 'mAb', 'Proteins'],
+            application: ['Vaccine', 'CGT', 'mAb'],
             target: ['HEK293', 'HEK293T', 'HEK293F3F6'],
             productimage: 'image_smart/HEK-ViP-NX-Medium.jpg',
             productbrand: 'SARTORIUS',
@@ -430,7 +430,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -441,7 +441,7 @@ let listProducts = [
         dataname: 'd_12',
         information: {
             manufacturer: 'Xell',
-            application: ['Vaccine', 'CGT', 'mAb', 'Proteins'],
+            application: ['Vaccine', 'CGT', 'mAb'],
             target: ['HEK293', 'HEK293T', 'HEK293F3F6'],
             productimage: 'image_smart/HEK-ViP-NX-Medium.jpg',
             productbrand: 'SARTORIUS',
@@ -463,7 +463,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -474,7 +474,7 @@ let listProducts = [
         dataname: 'd_13',
         information: {
             manufacturer: 'Xell',
-            application: ['Vaccine', 'CGT', 'mAb', 'Proteins'],
+            application: ['Vaccine', 'CGT', 'mAb'],
             target: ['MDCK', 'MDBK'],
             productimage: 'image_smart/Xell MDXK Liquid.jpg',
             productbrand: 'SARTORIUS',
@@ -495,7 +495,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -506,8 +506,8 @@ let listProducts = [
         dataname: 'd_14',
         information: {
             manufacturer: 'Xell',
-            application: ['Vaccine', 'CGT', 'mAb', 'Proteins'],
-            target: ['BHK-21_Cell'],
+            application: ['Vaccine', 'CGT', 'mAb'],
+            target: ['BHK21'],
             productimage: 'image_smart/4Cell-BHK-21-1L-Bottle-en-B-0000130-White-Sartorius.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/84.4Cell-BHK-21-CD-Medium-Datasheet-en-B-2570068-Sartorius.pdf'
@@ -527,7 +527,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -538,7 +538,7 @@ let listProducts = [
         dataname: 'd_15',
         information: {
             manufacturer: 'Xell',
-            application: ['Vaccine', 'CGT', 'mAb', 'Proteins'],
+            application: ['Vaccine', 'CGT', 'mAb'],
             target: ['VERO'],
             productimage: 'image_smart/4Cell-NutriVero-1L-Bottle-en-B-0000326-White-Sartorius.jpg',
             productbrand: 'SARTORIUS',
@@ -560,7 +560,7 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
@@ -572,8 +572,8 @@ let listProducts = [
         dataname: 'd_16',
         information: {
             manufacturer: 'Cellgenix',
-            application: ['CellTherapy'],
-            target: ['HSC', 'NKCell'],
+            application: ['CGT'],
+            target: ['HSC', 'NK'],
             productimage: 'image_cellgenix/CellGenix_SCGM_Bottle_Bag_PhenolRed.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/01.Data-Sheet_GMP-SCGM_ME-DS-2002f.pdf'
@@ -605,8 +605,8 @@ let listProducts = [
         dataname: 'd_17',
         information: {
             manufacturer: 'Cellgenix',
-            application: ['CellTherapy'],
-            target: ['HSC', 'NKCell'],
+            application: ['CGT'],
+            target: ['HSC', 'NK'],
             productimage: 'image_cellgenix/CellGenix_DC_Bottle_Bag_wo_PhenolRed.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/02.Data Sheet_GMP DC_ME-DS-2001j.pdf'
@@ -640,8 +640,8 @@ let listProducts = [
         dataname: 'd_18',
         information: {
             manufacturer: 'Cellgenix',
-            application: ['CellTherapy'],
-            target: ['TCell'],
+            application: ['CGT'],
+            target: ['T'],
             productimage: 'image_cellgenix/CellGenix-TCM-GMP-Bottle-500ML-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/03.Data Sheet_GMP TCM_ME-DS-2014d.pdf'
@@ -673,8 +673,8 @@ let listProducts = [
         dataname: 'd_19',
         information: {
             manufacturer: 'Cellgenix',
-            application: ['CellTherapy'],
-            target: ['MammalianCell', 'StemCell', 'ImmuneCell', 'PrimaryCell'],
+            application: ['CGT'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_cellgenix/CellGenix-Recombinant-Cytokines&Growth-Factors-Pre.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/04.CellGenix-Preclinical-GMP-Cytokine-Portfolio-Datasheet-en-B.pdf'
@@ -704,8 +704,8 @@ let listProducts = [
         dataname: 'd_20',
         information: {
             manufacturer: 'Cellgenix',
-            application: ['CellTherapy'],
-            target: ['MammalianCell', 'StemCell', 'ImmuneCell', 'PrimaryCell'],
+            application: ['CGT'],
+            target: ['hPSC(iP5)'],
             productimage: 'image_cellgenix/CellGenix-Recombinant-Cytokines&Growth-Factors-GMP.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/05.CellGenix-Preclinical-GMP-Cytokine-Portfolio-Datasheet-en-B.pdf'
@@ -736,7 +736,7 @@ let listProducts = [
         dataname: 'd_21',
         information: {
             manufacturer: 'RoosterBio',
-            application: ['MSCCellTherapy'],
+            application: ['CGT'],
             target: ['MSC'],
             productimage: 'image_roosterbio/RoosterVial.jpg',
             productbrand: 'SARTORIUS',
@@ -802,7 +802,7 @@ let listProducts = [
         dataname: 'd_23',
         information: {
             manufacturer: 'RoosterBio',
-            application: ['MSCCellTherapy'],
+            application: ['CGT'],
             target: ['MSC'],
             productimage: 'image_roosterbio/RoosterNourish-MSC.jpg',
             productbrand: 'SARTORIUS',
@@ -837,7 +837,7 @@ let listProducts = [
         information: {
             manufacturer: 'RoosterBio',
             application: ['Exosome'],
-            target: ['MSC', 'HEK293', 'Exosome'],
+            target: ['Exosome'],
             productimage: 'image_roosterbio/RoosterCollect-EV.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/09.RBI_Product-Tech-Sheet-RoosterCollect-EV-v7.pdf'
@@ -872,8 +872,8 @@ let listProducts = [
         dataname: 'd_25',
         information: {
             manufacturer: 'RoosterBio',
-            application: ['CellTherapy'],
-            target: ['MSC', 'CART', 'CARNK'],
+            application: ['CGT'],
+            target: ['MSC', 'T', 'CART'],
             productimage: 'image_roosterbio/RoosterGEM.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/10.RBI_Product-Tech-Sheet-RoosterGEM_v2.1.pdf'
@@ -903,11 +903,11 @@ let listProducts = [
     {
         id: 26,
         product_type: 'Media',
-        productname: 'RoosterReplenish',
+        productname: 'Rooster Replenish',
         dataname: 'd_26',
         information: {
             manufacturer: 'RoosterBio',
-            application: ['CellTherapy'],
+            application: ['CGT'],
             target: ['MSC'],
             productimage: 'image_roosterbio/RoosterReplenish.jpg',
             productbrand: 'SARTORIUS',
@@ -942,7 +942,7 @@ let listProducts = [
         dataname: 'd_27',
         information: {
             manufacturer: 'BI',
-            application: ['MSCCellTherapy'],
+            application: ['CGT'],
             target: ['MSC'],
             productimage: 'image_bi/MSC-Nutristem-XF-PRF-Basal-Medium-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
@@ -976,8 +976,8 @@ let listProducts = [
         dataname: 'd_28',
         information: {
             manufacturer: 'BI',
-            application: ['CellTherapy'],
-            target: ['iPS', 'ES', 'hPSC'],
+            application: ['CGT'],
+            target: ['hPSC(iPS)'],
             productimage: 'image_bi/NutriStem-hPSC-XF-Medium-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/13.NutriStem-hPSC-XF-Medium-Datasheet-en-B-Sartorius.pdf'
@@ -1011,8 +1011,8 @@ let listProducts = [
         dataname: 'd_29',
         information: {
             manufacturer: 'BI',
-            application: ['CellTherapy'],
-            target: ['PBMC', 'TCell', 'NKCell', 'CART', 'CARNK', 'TIL'],
+            application: ['CGT'],
+            target: ['T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_bi/4Cell-Nutri-T-GMP-Medium-1L-Bottle-B-0002050-White-Sartorius.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datashhe/14.4Cell-Nutri-T-Media_datasheet.pdf'
@@ -1041,13 +1041,13 @@ let listProducts = [
     },
     {
         id: 30,
-        product_type: 'Media',
+        product_type: 'CellCultureReagent',
         productname: 'NutriFreez Cryopreservation Solution',
         dataname: 'd_30',
         information: {
             manufacturer: 'BI',
-            application: ['동결보존액(DMSO)'],
-            target: ['MammalianCell', 'StemCell', 'ImmuneCell', 'PrimaryCell'],
+            application: ['CGT'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_bi/NutriFreez-D10-Cryopreservation-Medium-without-Phenol-Red-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/15.NutriFreez D10_Datasheet.pdf'
@@ -1075,13 +1075,13 @@ let listProducts = [
     },
     {
         id: 31,
-        product_type: 'Media',
+        product_type: 'CellCultureReagent',
         productname: 'NutriStor Cold Storage Solution',
         dataname: 'd_31',
         information: {
             manufacturer: 'BI',
-            application: ['냉장보존액'],
-            target: ['MammalianCell', 'StemCell', 'ImmuneCell', 'PrimaryCell'],
+            application: ['CGT'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_bi/NutriStor-Cold-Storage-Solution-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/16. NutriStor-Cold-Storage-Solution-Datasheet-en-B.pdf'
@@ -1110,13 +1110,13 @@ let listProducts = [
     },
     {
         id: 32,
-        product_type: 'Media',
+        product_type: 'CellCultureReagent',
         productname: 'Recombinant Trypsin (EDTA) Solution',
         dataname: 'd_32',
         information: {
             manufacturer: 'BI',
-            application: ['CellDetachment'],
-            target: ['MammalianCell', 'StemCell', 'ImmuneCell', 'PrimaryCell'],
+            application: ['CGT'],
+            target: ['MSC', 'hPSC(iP5)', 'DendriticCell'],
             productimage: 'image_bi/Recombinant-Trypsin-EDTA-Solution-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/17.Recombinant-Trypsin-Flyer-en-B-Sartorius_FG_210602.pdf'
@@ -1145,13 +1145,13 @@ let listProducts = [
     },
     {
         id: 33,
-        product_type: 'Media',
+        product_type: 'CellCultureReagent',
         productname: 'Human Serum Albumin (HSA) Solution(10%, 20%)',
         dataname: 'd_33',
         information: {
             manufacturer: 'BI',
-            application: ['Stabilty'],
-            target: ['StemCell', 'ImmuneCell', 'PrimaryCell'],
+            application: ['CGT'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_bi/Human Serum Albumin (HSA) Solution.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/18.Human Serum Albumin 10%, 20%_Manual.pdf'
@@ -1185,7 +1185,7 @@ let listProducts = [
         dataname: 'd_34',
         information: {
             manufacturer: 'BI',
-            application: ['CellTherapy'],
+            application: ['CGT'],
             target: ['EndothelialCell'],
             productimage: 'image_bi/EndoGo-XF-Medium-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
@@ -1212,13 +1212,13 @@ let listProducts = [
     },
     {
         id: 35,
-        product_type: 'Media',
+        product_type: 'CellCultureReagent',
         productname: 'PLTGold Human Platelet Lysate',
         dataname: 'd_35',
         information: {
             manufacturer: 'BI',
-            application: ['CellTherapy'],
-            target: ['MammalianCell', 'StemCell', 'ImmuneCell', 'PrimaryCell'],
+            application: ['CGT'],
+            target: ['MSC', 'HSC', 'NK', 'CARNK'],
             productimage: 'image_bi/PLTGoldGMP-GI.Family.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/20.PLTGOLD_MillCreekProductSpecSheets_2022.pdf'
@@ -1249,13 +1249,13 @@ let listProducts = [
     },
     {
         id: 36,
-        product_type: 'Media',
+        product_type: 'CellCultureReagent',
         productname: 'Sartorius Albumedix',
         dataname: 'd_36',
         information: {
-            manufacturer: 'Alumedix',
-            application: ['Stabilty', 'Nutrient', 'FinalFormulation', 'SurfaceCoating', 'FilterPretreatment'],
-            target: ['MammalianCell', 'StemCell', 'ImmuneCell', 'PrimaryCell'],
+            manufacturer: 'Albumedix',
+            application: ['CGT', 'Exosome'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell', 'Exosome'],
             productimage: 'image_albumedix/Albumedix-Recombumin-B-0003194.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/21.recombumin-datasheet-en-b-sartorius-pdf-data'
@@ -1284,8 +1284,6 @@ let listProducts = [
             mail: SFDC.address,
         }
     },
-
-    //===========================================================================추가
 
     {
         id: 37,
@@ -1319,58 +1317,56 @@ let listProducts = [
             </p>`,
         },
         incharge: {
-            tel: 장두재.tel,
+            tel: 이윤서.tel,
             mail: SFDC.address,
         }
     },
+   
 ];
 
 // ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
+// ==================================================미리 짜여진 OPTION : FIRST CHILD
 
-let option_application_mAb = [
+
+let option_application_media = [
     {value: '', text: ''},
-    {value: 'Media', text: 'Media'}
+    {value: 'mAb', text: 'mAb'},
+    {value: 'CGT', text: 'CGT'},
+    {value: 'Vaccine', text: 'Vaccine'},
+    {value: 'Exosome', text: 'Exosome'}
 ];
 
-let option_application_Vaccine = [
+let option_application_cellculturereagent = [
     {value: '', text: ''},
-    {value: 'Media', text: 'Media'}
-];
-
-let option_application_CGT = [
-    {value: '', text: ''},
-    {value: 'Media', text: 'Media'}
-];
-
-let option_application_CellTherapy = [
-    {value: '', text: ''},
-    {value: 'Media', text: 'Media'},
-];
-
-let option_application_Plasma = [
-    {value: '', text: ''},
-    {value: 'Filter', text: 'Filter'},
-    {value: 'TFF', text: 'TFF'},
-    // {value: 'VirusClearance', text: 'Virus Clearance'},
-    // {value: 'Chromatography', text: 'Chromatography'},
-];
-
-let option_application_Exosome = [
-    {value: '', text: ''},
-    {value: 'Media', text: 'Media'}
-];
-
-let option_application_CellCultureReagent = [
-    {value: '', text: ''},
-    {value: 'Reagent', text: 'Reagent'},
+    {value: 'CGT', text: 'CGT'},
+    {value: 'Exosome', text: 'Exosome'}
 ];
 
 
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
+//==========================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
 
 
-//===================================================SELECT OPTION : MEDIA에 대한 SECOND CHILD
-
-let secondChildCellLine_mAb_media = [
+//==========================================SELECT OPTION Media
+let secondChild_media_mAb = [
     {value: '', text: ''},
     {value: 'CHO', text: 'CHO'},
     {value: 'CHODG44', text: 'CHO-DG44'},
@@ -1379,101 +1375,131 @@ let secondChildCellLine_mAb_media = [
     {value: 'CHOS', text: 'CHO-S'},
 ];
 
-let secondChildCellLine_Vaccine_media = [
+let secondChild_media_CGT = [
+    {value: '', text: ''},
+    {value: 'HEK293', text: 'HEK293'},
+    {value: 'MSC', text: 'MSC'},
+    {value: 'HPSC', text: 'hPSC'},
+    {value: 'HSC', text: 'HSC'},
+    {value: 'TCELL', text: 'T_Cell'},
+    {value: 'CART', text: 'CAR-T'},
+    {value: 'NK', text: 'NK Cell'},
+    {value: 'CARNK', text: 'CAR-NK Cell'},
+    {value: 'DendriticCell', text: 'Dendritic Cell'},
+];
+
+let secondChild_media_Vaccine = [
     {value: '', text: ''},
     {value: 'HEK293', text: 'HEK293'},
     {value: 'VERO', text: 'VERO'},
     {value: 'BHK21', text: 'BHK-21'},
-    {value: 'INSECT', text: 'INSECT'},
+    {value: 'INSECT', text: 'Insect'},
     {value: 'MDXK', text: 'MDXK'},
-    {value: 'MDCK', text: 'Madin-Darby Canine Kidney'},
-    {value: 'MDBK', text: 'Madin-Darby Bovine kidney'},
+    {value: 'MDCK', text: 'MDCK'},
+    {value: 'MDBK', text: 'MDBK'},
 ];
 
-let secondChildCellLine_CGT_media = [
+let secondChild_media_Exosome = [
     {value: '', text: ''},
-    {value: 'HEK293', text: 'HEK293'},
-    {value: 'MSC', text: 'MSC'},
-    {value: 'hPSC', text: 'hPSC(iPS)'},
-    {value: 'HSC', text: 'HSC'},
-    {value: 'TCell', text: 'T-Cell'},
-    {value: 'CART', text: 'CAR-T'},
-    {value: 'NK', text: 'NK'},
-    {value: 'CARNK', text: 'CAR-NK'},
-    {value: 'DendriticCell', text: 'Dendritic Cell'}
-];
-
-let secondChildCellLine_CellTherapy_media = [
-    {value: '', text: ''},
-    {value: 'HEK293', text: 'HEK293'},
-    {value: 'HEK293T', text: 'HEK293T'},
-    {value: 'HEK293F3F6', text: 'HEK293F-3F6(NRC)'},
-];
-
-let secondChildCellLine_Exosome_media = [
-    {value: '', text: ''},
-    {value: 'MSC', text: 'MSC'},
     {value: 'Exosome', text: 'Exosome'},
-    {value: 'HEK293', text: 'HEK293'},
 ];
 
-let secondChildCellLine_CellCultureReagent_reagent = [
+//==========================================SELECT OPTION Cell Culture Reagent
+
+let secondChild_cellculturereagent_CGT = [
     {value: '', text: ''},
     {value: 'MSC', text: 'MSC'},
+    {value: 'hPSC(iPS)', text: 'hPSC(iPS)'},
+    {value: 'HSC', text: 'HSC'},
+    {value: 'T', text: 'T Cell'},
+    {value: 'CART', text: 'CAR-T'},
+    {value: 'NK', text: 'NK Cell'},
+    {value: 'CARNK', text: 'CAR-NK Cell'},
+    {value: 'DendriticCell', text: 'Dendritic Cell'},
 ];
+
+let secondChild_cellculturereagent_Exosome = [
+    {value: '', text: ''},
+    {value: 'Exosome', text: 'Exosome'},
+];
+
+//==========================================SELECT OPTION Filter
+
 
 //==================================================FIRST CHILD OPTION
-function loadFirstChild() {
-    console.log('안녕하세요?');
+//==================================================FIRST CHILD OPTION
+//==================================================FIRST CHILD OPTION
+//==================================================FIRST CHILD OPTION
+//==================================================FIRST CHILD OPTION
+//==================================================FIRST CHILD OPTION
+//==================================================FIRST CHILD OPTION
+//==================================================FIRST CHILD OPTION
+function loadParent() {
     let parentOption = document.getElementById('id01').value;
+    let firstChildSelect = document.getElementById('firstchildselect');
+    let secondChildSelect = document.getElementById('secondchildselect');
+    if(parentOption === 'Media' || parentOption === 'CellCultureReagent') {
+        firstChildSelect.style.display = 'flex';
+        document.querySelector('[for="id02"]').innerHTML = 'Selection : Modality';
+    }else {
+        if(parentOption === 'CellCultureReagent') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Modality';
+        }else if(parentOption === 'Filter') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Filtration';
+        }else if(parentOption === 'SingleUseSolution') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Single Use';
+        }else if(parentOption === 'Balance') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Balance';
+        }else if(parentOption === 'Equipment') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Equipment';
+        }else if(parentOption === '') {
+            firstChildSelect.style.display = 'none';
+            secondChildSelect.style.display = 'none';
+        }
+    };
+    
     let firtsChild = [];
     submitButton.click(); //자동클릭 메소드
 
     if(parentOption.value === '') {
-        console.log('최은형');
         submitButton.click(); //자동클릭 메소드
     }else {
-        if(parentOption === 'mAb') {
-            option_application_mAb.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }else if(parentOption === 'Vaccine') {
-            option_application_Vaccine.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }else if(parentOption === 'CGT') {
-            option_application_CGT.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }else if(parentOption === 'CellTherapy') {
-            option_application_CellTherapy.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }else if(parentOption === 'Plasma') {
-            option_application_Plasma.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }else if(parentOption === 'Exosome') {
-            option_application_Exosome.forEach(item => {
+        if(parentOption === 'Media') {
+            option_application_media.forEach(item => {
                 firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click(); //자동클릭 메소드
             });
         }else if(parentOption === 'CellCultureReagent') {
-            option_application_CellCultureReagent.forEach(item => {
+            option_application_cellculturereagent.forEach(item => {
                 firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click(); //자동클릭 메소드
             });
-        }else if(parentOption === 'FinalFormulation') {
-            option_application_FinalFormulation.forEach(item => {
+        }else if(parentOption === 'Filter') {
+            option_application_filter.forEach(item => {
                 firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click(); //자동클릭 메소드
             });
-        }               
+        }else if(parentOption === 'SingleUseSolution') {
+            option_application_singleusesolution.forEach(item => {
+                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
+                submitButton.click(); //자동클릭 메소드
+            });
+        }else if(parentOption === 'Balance') {
+            option_application_balance.forEach(item => {
+                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
+                submitButton.click(); //자동클릭 메소드
+            });
+        }else if(parentOption === 'Equipment') {
+            option_application_equipment.forEach(item => {
+                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
+                submitButton.click(); //자동클릭 메소드
+            });
+        }            
     };
     // document.querySelector('#id02').removeAttribute('disabled');
     document.getElementById('id02').innerHTML = firtsChild.join('');
@@ -1483,71 +1509,97 @@ function loadFirstChild() {
 
 
 //================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
+//================================================SECOND CHILD OPTION
 
-function loadSecondChild() {
-    let secondChildOption = document.getElementById('id02').value;
+function loadFirstChild() {
+    let firstChildOption = document.getElementById('id02').value;
     let parentOption = document.getElementById('id01').value;
-    if(secondChildOption === "Media") {
-        document.querySelector('[for="id03"]').innerHTML = 'Selection : Cell Line';
-    }else {
-        if(secondChildOption === "Filter") {
-            document.querySelector('[for="id03"]').innerHTML = 'Selection : Filtration Type';
-        }
-    }
-    
-    
+    let secondChildSelect = document.getElementById('secondchildselect');
     let secondChild = [];
     submitButton.click();
 
-    if(secondChildOption === ''){
-        submitButton.click();
+    if(parentOption === 'Media' && firstChildOption === 'mAb') {
+        document.querySelector('[for="id03"]').innerHTML = 'Selection : Cell Line';
+        secondChildSelect.style.display = 'flex';
+
+        secondChild_media_mAb.forEach(item => {
+            secondChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
+            submitButton.click();
+        });
     }else {
-        if(parentOption === 'mAb' && secondChildOption === 'Media') {
-            secondChildCellLine_mAb_media.forEach(item => {
+        if(parentOption === 'Media' && firstChildOption === 'CGT') {
+            document.querySelector('[for="id03"]').innerHTML = 'Selection : Cell Line';
+            secondChildSelect.style.display = 'flex';
+
+            secondChild_media_CGT.forEach(item => {
                 secondChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click();
             });
-        }else if(parentOption === 'Vaccine' && secondChildOption === 'Media') {
-            secondChildCellLine_Vaccine_media.forEach(item => {
+        }else if(parentOption === 'Media' && firstChildOption === 'Vaccine') {
+            document.querySelector('[for="id03"]').innerHTML = 'Selection : Cell Line';
+            secondChildSelect.style.display = 'flex';
+
+            secondChild_media_Vaccine.forEach(item => {
                 secondChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click();
             });
-        }else if(parentOption === 'CGT' && secondChildOption === 'Media') {
-            secondChildCellLine_CGT_media.forEach(item => {
+        }else if(parentOption === 'Media' && firstChildOption === 'Exosome') {
+            document.querySelector('[for="id03"]').innerHTML = 'Selection : Cell Line';
+            secondChildSelect.style.display = 'flex';
+
+            secondChild_media_Exosome.forEach(item => {
                 secondChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click();
             });
-        }else if(parentOption === 'CellTherapy' && secondChildOption === 'Media') {
-            secondChildCellLine_CellTherapy_media.forEach(item => {
+        //CellCultureReagent
+        //CellCultureReagent
+        }else if(parentOption === 'CellCultureReagent' && firstChildOption === 'CGT') {
+            document.querySelector('[for="id03"]').innerHTML = 'Selection : Cell Line';
+
+            secondChild_cellculturereagent_CGT.forEach(item => {
                 secondChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click();
             });
-        }else if(parentOption === 'Exosome' && secondChildOption === 'Media') {
-            secondChildCellLine_Exosome_media.forEach(item => {
+
+        }else if(parentOption === 'CellCultureReagent' && firstChildOption === 'Exosome') {
+            document.querySelector('[for="id03"]').innerHTML = 'Selection : Cell Line';
+            
+            secondChild_cellculturereagent_Exosome.forEach(item => {
                 secondChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click();
             });
-        }else if(parentOption === 'CellCultureReagent' && secondChildOption === 'Reagent') {
-            secondChildCellLine_CellCultureReagent_reagent.forEach(item => {
-                secondChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click();
-            });
-        }
-    };
+        };
+    };    
     document.getElementById('id03').innerHTML = secondChild.join('');
     submitButton.click();
 };
 
 
 //================================================SECOND CHILD OPTION
-function loadThirdChild () {
-    let thirdChildOption = document.getElementById('id03').value;
-    let scondChildOption = document.getElementById('id02').value;
+function loadSecondChild () {
+    let secondChildOption = document.getElementById('id03').value;
+    let firstChildOption = document.getElementById('id02').value;
     let parentOption = document.getElementById('id01').value;
     let thirdChild = [];
     submitButton.click();
 
-    if(thirdChildOption === ''){
+    if(secondChildOption === ''){
         submitButton.click();
     }else {
         submitButton.click();
@@ -1556,32 +1608,36 @@ function loadThirdChild () {
 }
 
 
-
-// ================================================================
+// =============================================================SUBMIT EVENT
+// =============================================================SUBMIT EVENT
+// =============================================================SUBMIT EVENT
+// =============================================================SUBMIT EVENT
+// =============================================================SUBMIT EVENT
+// =============================================================SUBMIT EVENT
+// =============================================================SUBMIT EVENT
+// =============================================================SUBMIT EVENT
+// =============================================================SUBMIT EVENT
 let itemList = document.querySelector('.boxitem');
 let productFiltered = listProducts;
-
-
-// =============================================================SUBMIT EVENT
 let filter = document.querySelector('.filter');
 
 filter.addEventListener('submit', function(event) {
     event.preventDefault();
     let valueFilter = event.target.elements;
     productFiltered = listProducts.filter(item => {
-        if(valueFilter.application.value != ''){
-            if(!item.information.application.includes(valueFilter.application.value)){
-                return false;
-            }
-        }
         if(valueFilter.producttype.value != ''){
-            console.log(valueFilter.producttype.value);
             if(!item.product_type.includes(valueFilter.producttype.value)){
                 return false;
             }
         }
-        if(valueFilter.target.value != ''){
-            if(!item.information.target.includes(valueFilter.target.value)){
+        if(valueFilter.firstChild.value != ''){
+            console.log(valueFilter.producttype.value);
+            if(!item.information.application.includes(valueFilter.firstChild.value)){
+                return false;
+            }
+        }
+        if(valueFilter.secondChild.value != ''){
+            if(!item.information.target.includes(valueFilter.secondChild.value)){
                 return false;
             }
         }
@@ -1589,15 +1645,38 @@ filter.addEventListener('submit', function(event) {
     });
     showProduct(productFiltered);
     makePopupWindow();
+    brandColor();
 });
 
-// ===============================================================popup
+// ==============================================================
+// ==============================================================
+// ==============================================================
+// ==============================================================
+// ==============================================================
+// ==============================================================
 showProduct(productFiltered);
-
-
 makePopupWindow();
+brandColor();
 
 // ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+// ========================================================FUNCTION
+
 function showProduct(productFiltered) {
     count.innerText = productFiltered.length;
     itemList.innerHTML = '';
@@ -1622,14 +1701,43 @@ function showProduct(productFiltered) {
         newProduct.appendChild(newItem02);
 
         let newItem03 = document.createElement('div');
-        newItem03.classList.add('productinformation');
-        newItem03.innerText = item.information.productbrand;
+        newItem03.classList.add('productdescription');
+        newItem03.innerText = item.product_type;
         newProduct.appendChild(newItem03);
+
+        let newItem04 = document.createElement('div');
+        newItem04.classList.add('productmanufacturer');
+        newItem04.innerText = item.information.productbrand;
+        newProduct.appendChild(newItem04);
+
+
+        
 
         itemList.appendChild(newProduct);
     })
+
+    
 };
 
+function brandColor() {
+    let product = document.querySelectorAll('.product');
+    let productName = document.querySelectorAll('.productname');
+    let productDescription = document.querySelectorAll('.productdescription');
+    let productManufacturer = document.querySelectorAll('.productmanufacturer');
+    
+    for(let i = 0; i < product.length; i++) {
+        if(productManufacturer[i].innerText === 'SARTORIUS') {
+            product[i].style.backgroundColor = '#FFF100';
+        }else {
+            if(productManufacturer[i].innerText === 'MERCK') {
+                product[i].style.backgroundColor = '#523091';
+                productName[i].style.color = 'white';
+                productDescription[i].style.color = 'white';
+                productManufacturer[i].style.color = 'white';
+            };
+        };
+    };
+};
 
 function makePopupWindow() {
     let boxItemProduct = document.querySelectorAll('.product');
@@ -1666,3 +1774,4 @@ popupCloseButton.onclick = () => {
     let popupContainer = document.querySelector('.popupcontainer');
     popupContainer.style.display = 'none';
 };
+

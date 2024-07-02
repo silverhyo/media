@@ -29,22 +29,17 @@
         <div class="boxform">
             <form class="filter">
                 <div class="item">
-                    <label for="id01">Selection : Application</label>
-                    <select id="id01" name="application" onchange="loadFirstChild();">
+                    <label for="id01">Selection : Product Type</label>
+                    <select id="id01" name="producttype" onchange="loadParent();">
                         <option value="">선택해 주세요</option>
-                        <option value="mAb">mAb</option>
-                        <option value="Vaccine">Vaccine</option>
-                        <option value="CGT">CGT</option>
-                        <option value="CellTherapy">Cell Therapy</option>
-                        <option value="Plasma">Plasma</option>
-                        <option value="Exosome">Exosome</option>
-                        <option value="CellCultureReagent">Cell Cultrue Reagent</option>
+                        <option value="Media">Media</option>
+                        <option value="CellCultureReagent">Cell Culture Reagent</option>
                     </select>
                 </div>
 
-                <div class="item">
-                    <label for="id02">Selection : Product Type</label>
-                    <select id="id02" name="producttype" onchange="loadSecondChild();">
+                <div class="item" id="firstchildselect">
+                    <label for="id02">Selection</label>
+                    <select id="id02" name="firstChild" onchange="loadFirstChild();">
                         <option value="">선택해 주세요</option>
                         
                         <!-- ================================mAb -->
@@ -99,16 +94,12 @@
                         <!-- <option value="FMT">FMT</option> -->
                         
 
-                        
-
-
-
                     </select>
                 </div>
 
-                <div class="item">
+                <div class="item" id="secondchildselect">
                     <label for="id03">Selection : </label>
-                    <select id="id03" name="target" onchange="loadThirdChild();">
+                    <select id="id03" name="secondChild" onchange="loadSecondChild();">
                         <option value="">선택해 주세요</option>
 
                         <!-- ================================Exosome -->
@@ -148,7 +139,9 @@
                 </div>
                 <div class="productname">
                 </div>
-                <div class="productinformation">
+                <div class='productdescription'>
+                </div>
+                <div class="productmanufacturer">
                 </div>
             </div> -->
         </div>
@@ -160,6 +153,11 @@
         </div>
 
         <!-- ======================================================POPUP -->
+        <!-- ======================================================POPUP -->
+        <!-- ======================================================POPUP -->
+        <!-- ======================================================POPUP -->
+        <!-- ======================================================POPUP -->
+
         <div class="popupcontainer">
             <div class="popup">
                 <div class="popupimage">
@@ -200,6 +198,10 @@
         
        
     </div>
+
+
+    
+
 
     <!-- Javascript link -->
     <script src="script.js"></script>
