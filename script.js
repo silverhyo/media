@@ -1445,18 +1445,6 @@ function loadParent() {
         if(parentOption === 'CellCultureReagent') {
             firstChildSelect.style.display = 'flex';
             document.querySelector('[for="id02"]').innerHTML = 'Selection : Modality';
-        }else if(parentOption === 'Filter') {
-            firstChildSelect.style.display = 'flex';
-            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Filtration';
-        }else if(parentOption === 'SingleUseSolution') {
-            firstChildSelect.style.display = 'flex';
-            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Single Use';
-        }else if(parentOption === 'Balance') {
-            firstChildSelect.style.display = 'flex';
-            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Balance';
-        }else if(parentOption === 'Equipment') {
-            firstChildSelect.style.display = 'flex';
-            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Equipment';
         }else if(parentOption === '') {
             firstChildSelect.style.display = 'none';
             secondChildSelect.style.display = 'none';
@@ -1479,27 +1467,7 @@ function loadParent() {
                 firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click(); //자동클릭 메소드
             });
-        }else if(parentOption === 'Filter') {
-            option_application_filter.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }else if(parentOption === 'SingleUseSolution') {
-            option_application_singleusesolution.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }else if(parentOption === 'Balance') {
-            option_application_balance.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }else if(parentOption === 'Equipment') {
-            option_application_equipment.forEach(item => {
-                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
-                submitButton.click(); //자동클릭 메소드
-            });
-        }            
+        }           
     };
     // document.querySelector('#id02').removeAttribute('disabled');
     document.getElementById('id02').innerHTML = firtsChild.join('');
