@@ -1381,7 +1381,7 @@ let secondChild_media_CGT = [
     {value: 'MSC', text: 'MSC'},
     {value: 'HPSC', text: 'hPSC'},
     {value: 'HSC', text: 'HSC'},
-    {value: 'TCELL', text: 'T_Cell'},
+    {value: 'TCELL', text: 'T-Cell'},
     {value: 'CART', text: 'CAR-T'},
     {value: 'NK', text: 'NK Cell'},
     {value: 'CARNK', text: 'CAR-NK Cell'},
@@ -1411,7 +1411,7 @@ let secondChild_cellculturereagent_CGT = [
     {value: 'MSC', text: 'MSC'},
     {value: 'hPSC(iPS)', text: 'hPSC(iPS)'},
     {value: 'HSC', text: 'HSC'},
-    {value: 'T', text: 'T Cell'},
+    {value: 'T', text: 'T-Cell'},
     {value: 'CART', text: 'CAR-T'},
     {value: 'NK', text: 'NK Cell'},
     {value: 'CARNK', text: 'CAR-NK Cell'},
@@ -1438,13 +1438,30 @@ function loadParent() {
     let parentOption = document.getElementById('id01').value;
     let firstChildSelect = document.getElementById('firstchildselect');
     let secondChildSelect = document.getElementById('secondchildselect');
-    if(parentOption === 'Media' || parentOption === 'CellCultureReagent') {
+    if(parentOption === 'Media') {
         firstChildSelect.style.display = 'flex';
         document.querySelector('[for="id02"]').innerHTML = 'Selection : Modality';
     }else {
         if(parentOption === 'CellCultureReagent') {
             firstChildSelect.style.display = 'flex';
             document.querySelector('[for="id02"]').innerHTML = 'Selection : Modality';
+            secondChildSelect.style.display = 'none';
+        }else if(parentOption === 'Filter') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Filtration';
+            secondChildSelect.style.display = 'none';
+        }else if(parentOption === 'SingleUseSolution') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Single Use';
+            secondChildSelect.style.display = 'none';
+        }else if(parentOption === 'Balance') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Balance';
+            secondChildSelect.style.display = 'none';
+        }else if(parentOption === 'Equipment') {
+            firstChildSelect.style.display = 'flex';
+            document.querySelector('[for="id02"]').innerHTML = 'Selection : Purpose of Equipment';
+            secondChildSelect.style.display = 'none';
         }else if(parentOption === '') {
             firstChildSelect.style.display = 'none';
             secondChildSelect.style.display = 'none';
@@ -1467,7 +1484,27 @@ function loadParent() {
                 firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
                 submitButton.click(); //자동클릭 메소드
             });
-        }           
+        }else if(parentOption === 'Filter') {
+            option_application_filter.forEach(item => {
+                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
+                submitButton.click(); //자동클릭 메소드
+            });
+        }else if(parentOption === 'SingleUseSolution') {
+            option_application_singleusesolution.forEach(item => {
+                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
+                submitButton.click(); //자동클릭 메소드
+            });
+        }else if(parentOption === 'Balance') {
+            option_application_balance.forEach(item => {
+                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
+                submitButton.click(); //자동클릭 메소드
+            });
+        }else if(parentOption === 'Equipment') {
+            option_application_equipment.forEach(item => {
+                firtsChild.push('<option value="' + item.value +'">'+ item.text +'</option>');
+                submitButton.click(); //자동클릭 메소드
+            });
+        }            
     };
     // document.querySelector('#id02').removeAttribute('disabled');
     document.getElementById('id02').innerHTML = firtsChild.join('');
