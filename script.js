@@ -838,7 +838,7 @@ let listProducts = [
             manufacturer: 'RoosterBio',
             application: ['Exosome'],
             target: ['Exosome'],
-            productimage: 'image_roosterbio/RoosterCollect-EV.jpg',
+            productimage: 'image_roosterbio/roostercollect-ev.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/09.RBI_Product-Tech-Sheet-RoosterCollect-EV-v7.pdf'
         }, 
