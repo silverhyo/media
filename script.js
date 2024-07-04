@@ -573,7 +573,7 @@ let listProducts = [
         information: {
             manufacturer: 'Cellgenix',
             application: ['CGT'],
-            target: ['HSC', 'NK'],
+            target: ['HSC', 'NK', 'CARNK'],
             productimage: 'image_cellgenix/CellGenix_SCGM_Bottle_Bag_PhenolRed.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/01.Data-Sheet_GMP-SCGM_ME-DS-2002f.pdf'
@@ -606,7 +606,7 @@ let listProducts = [
         information: {
             manufacturer: 'Cellgenix',
             application: ['CGT'],
-            target: ['HSC', 'NK'],
+            target: ['DendriticCell'],
             productimage: 'image_cellgenix/CellGenix_DC_Bottle_Bag_wo_PhenolRed.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/02.Data Sheet_GMP DC_ME-DS-2001j.pdf'
@@ -641,7 +641,7 @@ let listProducts = [
         information: {
             manufacturer: 'Cellgenix',
             application: ['CGT'],
-            target: ['T'],
+            target: ['TCELL', 'CART'],
             productimage: 'image_cellgenix/CellGenix-TCM-GMP-Bottle-500ML-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/03.Data Sheet_GMP TCM_ME-DS-2014d.pdf'
@@ -668,13 +668,13 @@ let listProducts = [
     },
     {
         id: 19,
-        product_type: 'Media',
+        product_type: ['Media', 'CellCultureReagent'],
         productname: 'Cellgenix Recombinant Cytokines & Growth Factors_Preclinical',
         dataname: 'd_19',
         information: {
             manufacturer: 'Cellgenix',
             application: ['CGT'],
-            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'TCELL', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_cellgenix/CellGenix-Recombinant-Cytokines&Growth-Factors-Pre.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/04.CellGenix-Preclinical-GMP-Cytokine-Portfolio-Datasheet-en-B.pdf'
@@ -838,7 +838,7 @@ let listProducts = [
             manufacturer: 'RoosterBio',
             application: ['Exosome'],
             target: ['Exosome'],
-            productimage: 'image_roosterbio/roostercollect-ev.jpg',
+            productimage: 'image_roosterbio/RoosterCollect-EV.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/09.RBI_Product-Tech-Sheet-RoosterCollect-EV-v7.pdf'
         }, 
@@ -873,7 +873,7 @@ let listProducts = [
         information: {
             manufacturer: 'RoosterBio',
             application: ['CGT'],
-            target: ['MSC', 'T', 'CART'],
+            target: ['MSC', 'TCELL', 'CART', 'CARNK'],
             productimage: 'image_roosterbio/RoosterGEM.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/10.RBI_Product-Tech-Sheet-RoosterGEM_v2.1.pdf'
@@ -943,7 +943,7 @@ let listProducts = [
         information: {
             manufacturer: 'BI',
             application: ['CGT'],
-            target: ['MSC'],
+            target: ['MSC', 'hPSC(iP5)'],
             productimage: 'image_bi/MSC-Nutristem-XF-PRF-Basal-Medium-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/12.MSC-NutriStem-Datasheet-en-B-Sartorius.pdf'
@@ -1012,7 +1012,7 @@ let listProducts = [
         information: {
             manufacturer: 'BI',
             application: ['CGT'],
-            target: ['T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
+            target: ['TCELL', 'CART', 'NK', 'CARNK'],
             productimage: 'image_bi/4Cell-Nutri-T-GMP-Medium-1L-Bottle-B-0002050-White-Sartorius.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datashhe/14.4Cell-Nutri-T-Media_datasheet.pdf'
@@ -1047,7 +1047,7 @@ let listProducts = [
         information: {
             manufacturer: 'BI',
             application: ['CGT'],
-            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'TCELL', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_bi/NutriFreez-D10-Cryopreservation-Medium-without-Phenol-Red-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/15.NutriFreez D10_Datasheet.pdf'
@@ -1081,7 +1081,7 @@ let listProducts = [
         information: {
             manufacturer: 'BI',
             application: ['CGT'],
-            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'TCELL', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_bi/NutriStor-Cold-Storage-Solution-500mL-Bottle-en-B.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/16. NutriStor-Cold-Storage-Solution-Datasheet-en-B.pdf'
@@ -1151,7 +1151,7 @@ let listProducts = [
         information: {
             manufacturer: 'BI',
             application: ['CGT'],
-            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'TCELL', 'CART', 'NK', 'CARNK', 'DendriticCell'],
             productimage: 'image_bi/Human Serum Albumin (HSA) Solution.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/18.Human Serum Albumin 10%, 20%_Manual.pdf'
@@ -1255,7 +1255,7 @@ let listProducts = [
         information: {
             manufacturer: 'Albumedix',
             application: ['CGT', 'Exosome'],
-            target: ['MSC', 'hPSC(iP5)', 'HSC', 'T', 'CART', 'NK', 'CARNK', 'DendriticCell', 'Exosome'],
+            target: ['MSC', 'hPSC(iP5)', 'HSC', 'TCELL', 'CART', 'NK', 'CARNK', 'DendriticCell', 'Exosome'],
             productimage: 'image_albumedix/Albumedix-Recombumin-B-0003194.jpg',
             productbrand: 'SARTORIUS',
             productmaterial: 'datasheet/21.recombumin-datasheet-en-b-sartorius-pdf-data'
@@ -1386,15 +1386,13 @@ let secondChild_media_CGT = [
     {value: 'NK', text: 'NK Cell'},
     {value: 'CARNK', text: 'CAR-NK Cell'},
     {value: 'DendriticCell', text: 'Dendritic Cell'},
+    {value: 'EndothelialCell', text: 'Endothelial Cell'},
 ];
 
 let secondChild_media_Vaccine = [
     {value: '', text: ''},
     {value: 'HEK293', text: 'HEK293'},
     {value: 'VERO', text: 'VERO'},
-    {value: 'BHK21', text: 'BHK-21'},
-    {value: 'INSECT', text: 'Insect'},
-    {value: 'MDXK', text: 'MDXK'},
     {value: 'MDCK', text: 'MDCK'},
     {value: 'MDBK', text: 'MDBK'},
 ];
@@ -1411,7 +1409,7 @@ let secondChild_cellculturereagent_CGT = [
     {value: 'MSC', text: 'MSC'},
     {value: 'hPSC(iPS)', text: 'hPSC(iPS)'},
     {value: 'HSC', text: 'HSC'},
-    {value: 'T', text: 'T-Cell'},
+    {value: 'TCELL', text: 'T-Cell'},
     {value: 'CART', text: 'CAR-T'},
     {value: 'NK', text: 'NK Cell'},
     {value: 'CARNK', text: 'CAR-NK Cell'},
